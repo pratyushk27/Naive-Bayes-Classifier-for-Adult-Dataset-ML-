@@ -3,22 +3,23 @@
 # Objective:
 The main objective of this project is to develop a Naive Bayes classifier to predict income levels based on demographic and socioeconomic attributes from the Adult dataset. By analyzing features such as age, education, occupation, and marital status, we aim to classify individuals into two income groups: <=50K and >50K.
 
-# Dataset: * The dataset used in this project is the Adult dataset
+# Dataset:
+The dataset used in this project is the Adult dataset
 
 # Methodology:
 * Data Preprocessing:Load the Adult dataset and preprocess it by handling missing values, encoding categorical variables, and scaling numerical features if necessary.
+  
 * Exploratory Data Analysis (EDA): Explore the distribution of income levels and analyze relationships between features and target variable using visualizations such as 
-                                   histograms, bar plots, and correlation matrices.
-                                   Identify potential patterns, trends, and outliers in the data.
+  histograms, bar plots, and correlation matrices.
+  Identify potential patterns, trends, and outliers in the data.
+  
 * Feature Selection: Select the most relevant features that have a significant impact on predicting income levels.
-                     Use techniques like chi-square test, information gain, or domain knowledge to determine feature importance.
-Model Building:
+  Use techniques like chi-square test, information gain, or domain knowledge to determine feature importance.
 
-Implement a Naive Bayes classifier using libraries like scikit-learn.
+* Model Building: Implement a Naive Bayes classifier using libraries like scikit-learn.
 Split the dataset into training and testing sets.
 Train the model on the training data and evaluate its performance.
-Model Evaluation:
-
+* Model Evaluation:
 Evaluate the performance of the Naive Bayes classifier using metrics such as accuracy, precision, recall, and F1-score.
 Compare the model's performance with other classification algorithms or baseline models.
 Model Interpretation:
