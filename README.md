@@ -3,7 +3,7 @@
 # Objective:
 The main objective of this project is to develop a Naive Bayes classifier to predict income levels based on demographic and socioeconomic attributes from the Adult dataset. By analyzing features such as age, education, occupation, and marital status, we aim to classify individuals into two income groups: <=50K and >50K.
 
-* Dataset: The dataset used in this project is the Adult dataset
+# Dataset: * The dataset used in this project is the Adult dataset
 
 # Methodology:
 * Data Preprocessing:Load the Adult dataset and preprocess it by handling missing values, encoding categorical variables, and scaling numerical features if necessary.
